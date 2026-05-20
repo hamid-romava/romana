@@ -36,7 +36,11 @@ export default function Page() {
   };
 
   return (
-    <main dir="rtl" style={{ "--accent": accent }} className="min-h-screen bg-[#050505] text-white overflow-x-hidden">
+      <main
+        dir="rtl"
+        style={{ "--accent": accent } as React.CSSProperties}
+        className="min-h-screen bg-[#050505]"
+      > 
       {/* HERO */}
       <section className="relative min-h-screen flex items-center px-8 md:px-16">
         <div className="absolute inset-0 bg-[radial-gradient(circle_at_top_right,rgba(67,133,207,0.16),transparent_35%),radial-gradient(circle_at_bottom_left,rgba(67,133,207,0.10),transparent_35%)]" />

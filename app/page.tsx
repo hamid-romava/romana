@@ -63,7 +63,11 @@ export default function Page() {
   };
 
   return (
-    <main dir="rtl" style={{ "--accent": accent } as any} className="min-h-screen bg-[#050505] text-white overflow-x-hidden font-sans">
+      <main
+        dir="rtl"
+        style={{ "--accent": accent } as React.CSSProperties}
+        className="min-h-screen bg-[#050505]"
+      >
       
       {/* 1. HERO SECTION */}
       <section className="relative min-h-[95vh] flex items-center px-6 md:px-16 overflow-hidden">
