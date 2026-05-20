@@ -19,11 +19,11 @@ const partners = ["Company One", "Company Two", "Company Three", "Company Four",
 
 export default function AboutPage() {
   return (
-      <main
-        dir="rtl"
-        style={{ "--accent": accent } as React.CSSProperties}
+      <main 
+        dir="rtl" 
         className="min-h-screen bg-[#050505]"
       >
+
       
       {/* Background Glow (عمق بخشیدن) */}
       <div className="absolute top-[-10%] left-[-10%] w-[40%] h-[40%] bg-purple-500/5 blur-[120px] rounded-full pointer-events-none" />

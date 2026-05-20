@@ -78,11 +78,12 @@ export default function advertising() {
   };
 
   return (
-      <main
-        dir="rtl"
-        style={{ "--accent": accent } as React.CSSProperties}
+      <main 
+        dir="rtl" 
+        style={{ "--accent": accent } as React.CSSProperties & Record<string, string>} 
         className="min-h-screen bg-[#050505]"
-      > 
+      >
+
       
       {/* HERO */}
       <section className="relative min-h-screen flex items-center px-8 md:px-16">
