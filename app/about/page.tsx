@@ -17,11 +17,12 @@ const itemVariants = {
 
 const partners = ["Company One", "Company Two", "Company Three", "Company Four", "Company Five"];
 
+
 export default function AboutPage() {
   return (
       <main
         dir="rtl"
-        style={{ ["--accent" as string]: accent }}
+        style={{ "--accent": accent }}
         className="min-h-screen bg-[#050505] text-white"
       >
 
