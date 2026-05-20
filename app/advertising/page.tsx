@@ -80,8 +80,8 @@ export default function advertising() {
   return (
       <main
         dir="rtl"
-        style={{ ["--accent" as string]: accent }}
-        className="min-h-screen bg-[#050505] text-white"
+        style={{ "--accent": accent } as React.CSSProperties}
+        className="min-h-screen bg-[#050505]"
       >
 
       
