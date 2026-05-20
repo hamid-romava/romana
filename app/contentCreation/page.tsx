@@ -36,11 +36,12 @@ export default function Page() {
   };
 
   return (
-      <main 
-        dir="rtl" 
-        style={{ "--accent": accent } as React.CSSProperties & Record<string, string>} 
-        className="min-h-screen bg-[#050505]"
+      <main
+        dir="rtl"
+        style={{ ["--accent" as string]: accent }}
+        className="min-h-screen bg-[#050505] text-white"
       >
+
  
       {/* HERO */}
       <section className="relative min-h-screen flex items-center px-8 md:px-16">

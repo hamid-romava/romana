@@ -19,9 +19,10 @@ const partners = ["Company One", "Company Two", "Company Three", "Company Four",
 
 export default function AboutPage() {
   return (
-      <main 
-        dir="rtl" 
-        className="min-h-screen bg-[#050505]"
+      <main
+        dir="rtl"
+        style={{ ["--accent" as string]: accent }}
+        className="min-h-screen bg-[#050505] text-white"
       >
 
       
